@@ -1,6 +1,6 @@
 parameters:
   kix_mdash.typographer.class:    EMT\EMTypograph
-  kix_mdash.twig_extension.class: Kix\MdashBundle\TypographerExtension
+  kix_mdash.twig_extension.class: Kix\MdashBundle\Twig\TypographerExtension
 
 services:
   kix_mdash.typographer:
