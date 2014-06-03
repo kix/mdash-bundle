@@ -20,5 +20,12 @@
         "twig/twig": "~1.12",
         "symfony/framework-bundle": "~2.1",
         "kix/mdash": "dev-master"
-    }
+    },
+    "keywords": [
+        "typographer",
+        "типограф",
+        "mdash",
+        "типограф Муравьева",
+        "symfony"
+    ]
 }
