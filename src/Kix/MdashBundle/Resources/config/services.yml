@@ -1,0 +1,14 @@
+parameters:
+  kix_mdash.typographer.class:    EMT\EMTypograph
+  kix_mdash.twig_extension.class: Kix\MdashBundle\TypographerExtension
+
+services:
+  kix_mdash.typographer:
+    class: %kix_mdash.typographer.class%
+
+  kix_mdash.twig_extension:
+    class: %kix_mdash.twig_extension.class%
+    arguments:
+      - @kix_mdash.typographer
+    tags:
+      - { name: twig.extension }
