@@ -37,7 +37,7 @@ class TypographerExtension extends \Twig_Extension
     }
 
     /**
-     * @param $text
+     * @param string $text
      * @return string
      */
     public function mdashFilter($text)
