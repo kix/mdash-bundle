@@ -20,7 +20,7 @@
     "require": {
         "twig/twig": "~1.12",
         "symfony/framework-bundle": "~2.1",
-        "kix/mdash": "~0.5.3"
+        "kix/mdash": "~0.5"
     },
     "keywords": [
         "typographer",
